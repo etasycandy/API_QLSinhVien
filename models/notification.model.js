@@ -2,6 +2,7 @@ const mongoose = require("mongoose");
 const { toJSON, paginate } = require("./plugins");
 
 const notificationSchema = mongoose.Schema({
+  registrationToken: String,
   name: {
     type: String,
     required: true,

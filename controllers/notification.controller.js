@@ -1,7 +1,7 @@
 const { notificationService } = require("../services");
 
 const createNotification = async (req, res) => {
-  const result = await notificationService.createNotification(req.body);
+  const result = await notificationService.createNotification(req.body, res);
   res.send(result);
 };
 

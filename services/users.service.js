@@ -6,11 +6,11 @@ const createUser = async (body) => {
 };
 
 const getUsers = async () => {
-  return User.find();
+  return await User.find();
 };
 
 const getUserById = async (id) => {
-  return User.findById(id);
+  return await User.findById(id);
 };
 
 const getUserByIdsv = async (idsv) => {

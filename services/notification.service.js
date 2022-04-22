@@ -1,6 +1,37 @@
 const { Notification } = require("../models");
+var admin = require("firebase-admin");
+var serviceAccount = require("../service-account.json");
+
+admin.initializeApp({
+  credential: admin.credential.cert(serviceAccount),
+});
+
+const notification_options = {
+  priority: "high",
+  timeToLive: 60 * 60 * 24,
+};
 
 const createNotification = async (body) => {
+  const registrationToken = body.registrationToken;
+
+  const message = {
+    notification: {
+      title: body.name,
+      body: body.description,
+    },
+  };
+  console.log(message);
+
+  const options = notification_options;
+
+  admin
+    .messaging()
+    .sendToDevice(registrationToken, message, options)
+
+    .catch((error) => {
+      console.log(error);
+    });
+
   return await Notification.create(body);
 };
 

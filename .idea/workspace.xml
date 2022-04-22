@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d83a5d37-ae8d-4fb0-a2e1-df9a7423028f" name="Changes" comment="" />
+    <list default="true" id="d83a5d37-ae8d-4fb0-a2e1-df9a7423028f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/notification.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/notification.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/notification.route.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/notification.route.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/notification.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/services/notification.service.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -21,7 +29,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="16.13.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="16.11.27" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../New folder/Web_BH" />
+    <property name="last_opened_file_path" value="D:/learnNestjs/Project/comix" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -60,6 +68,8 @@
       <updated>1650125295131</updated>
       <workItem from="1650125296449" duration="43000" />
       <workItem from="1650125340800" duration="6221000" />
+      <workItem from="1650282053650" duration="1666000" />
+      <workItem from="1650335027845" duration="78000" />
     </task>
     <servers />
   </component>
